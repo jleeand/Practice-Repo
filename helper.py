@@ -12,4 +12,4 @@ class Helper:
     def read(self) -> List:
         with open("./inputs.txt") as f:
             contents = f.readlines()
-            return contents
+        return contents
